@@ -1,6 +1,6 @@
 [user]
-	name = tszhong0411
-	email = me@nelsonlai.me
+	name = Nelson Lai
+	email = me@nelsonlai.dev
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIrrjJl0Hovp5M5umHYpY8rr/4ADj93QM51fFMZ2KJHu
 
 [gpg]
