@@ -71,3 +71,9 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home"
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$ANDROID_HOME/emulator:$PATH"
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
+
+# LM Studio CLI
+export PATH="$PATH:/Users/nelson/.lmstudio/bin"
+
+# Flutter
+export PATH="$PATH:$HOME/development/flutter/bin"
