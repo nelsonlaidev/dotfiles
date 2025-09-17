@@ -74,6 +74,3 @@ export PATH="$ANDROID_HOME/platform-tools:$PATH"
 
 # LM Studio CLI
 export PATH="$PATH:/Users/nelson/.lmstudio/bin"
-
-# Flutter
-export PATH="$PATH:$HOME/development/flutter/bin"
