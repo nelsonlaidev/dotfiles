@@ -12,12 +12,14 @@ Personal configuration files for my development environment. The configurations 
 
 ## Contents
 
-- `.zshrc` - Shell configuration with oh-my-zsh
-- `.gitconfig` - Git configuration with GPG signing
 - `.config/`
   - `ghossty/` - Terminal emulator settings
   - `karabiner/` - Keyboard customization (macOS)
 - `.ssh/` - SSH configuration
+- `.gitconfig` - Git configuration with GPG signing
+- `.zshrc` - Shell configuration with oh-my-zsh
+- `.zshenv` - Environment variables
+- `Brewfile` - Homebrew package list
 
 ## Installation
 
@@ -30,13 +32,7 @@ brew install stow
 2. Clone and apply:
 
 ```bash
-git clone https://github.com/tszhong0411/dotfiles.git ~/dotfiles
+git clone https://github.com/nelsonlaidev/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow .
 ```
-
-## Environment
-
-- Shell: Zsh + Oh My Zsh
-- Package Managers: Homebrew, pnpm, nvm
-- Tools: Bun, Deno, Python, Java
