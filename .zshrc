@@ -6,6 +6,12 @@ zstyle ':omz:update' frequency 3
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
+# Zsh Autosuggestions
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Zsh Syntax Highlighting
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Brew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -17,7 +23,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # Alias
 alias pn=pnpm
 alias cd=z
-alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+alias cz=czg
+alias ls="eza --color=always --icons=always --long --git --no-filesize --no-time --no-user --no-permissions"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
