@@ -20,12 +20,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# Alias
-alias pn=pnpm
-alias cd=z
-alias cz=czg
-alias ls="eza --color=always --icons=always --long --git --no-filesize --no-time --no-user --no-permissions"
-
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -80,4 +74,10 @@ export PATH="$ANDROID_HOME/emulator:$PATH"
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
 
 # LM Studio CLI
-export PATH="$PATH:/Users/nelson/.lmstudio/bin"
+export PATH="$PATH:$HOME/.lmstudio/bin"
+
+# Alias
+alias pn=pnpm
+alias cd=z
+alias cz=czg
+alias ls="eza --color=always --icons=always --long --git --no-filesize --no-time --no-user --no-permissions"
