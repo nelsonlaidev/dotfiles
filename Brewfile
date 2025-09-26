@@ -1,5 +1,6 @@
 tap "gromgit/fuse"
 brew "act"
+brew "cmake"
 brew "cocoapods"
 brew "eza"
 brew "fastfetch"
