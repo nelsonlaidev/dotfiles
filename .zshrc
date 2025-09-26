@@ -81,3 +81,7 @@ alias pn=pnpm
 alias cd=z
 alias cz=czg
 alias ls="eza --color=always --icons=always --long --git --no-filesize --no-time --no-user --no-permissions"
+
+# History
+# Do not record commands that start with a space
+setopt HIST_IGNORE_SPACE
