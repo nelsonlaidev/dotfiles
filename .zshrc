@@ -28,22 +28,22 @@ export NVM_DIR="$HOME/.nvm"
 autoload -U add-zsh-hook
 
 load-nvmrc() {
-  local nvmrc_path
-  nvmrc_path="$(nvm_find_nvmrc)"
+	local nvmrc_path
+	nvmrc_path="$(nvm_find_nvmrc)"
 
-  if [ -n "$nvmrc_path" ]; then
-    local nvmrc_node_version
-    nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+	if [ -n "$nvmrc_path" ]; then
+		local nvmrc_node_version
+		nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
 
-    if [ "$nvmrc_node_version" = "N/A" ]; then
-      nvm install
-    elif [ "$nvmrc_node_version" != "$(nvm version)" ]; then
-      nvm use
-    fi
-  elif [ -n "$(PWD=$OLDPWD nvm_find_nvmrc)" ] && [ "$(nvm version)" != "$(nvm version default)" ]; then
-    echo "Reverting to nvm default version"
-    nvm use default
-  fi
+		if [ "$nvmrc_node_version" = "N/A" ]; then
+			nvm install
+		elif [ "$nvmrc_node_version" != "$(nvm version)" ]; then
+			nvm use
+		fi
+	elif [ -n "$(PWD=$OLDPWD nvm_find_nvmrc)" ] && [ "$(nvm version)" != "$(nvm version default)" ]; then
+		echo "Reverting to nvm default version"
+		nvm use default
+	fi
 }
 
 add-zsh-hook chpwd load-nvmrc
@@ -61,9 +61,12 @@ export COREPACK_ENABLE_AUTO_PIN=0
 # PNPM
 export PNPM_HOME="$HOME/Library/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
 esac
+
+# 1Password
+export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home"
