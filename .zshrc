@@ -79,6 +79,9 @@ export PATH="$ANDROID_HOME/platform-tools:$PATH"
 # LM Studio CLI
 export PATH="$PATH:$HOME/.lmstudio/bin"
 
+# PostgreSQL 16
+export PATH="$HOMEBREW_PREFIX/opt/postgresql@16/bin:$PATH"
+
 # Alias
 alias pn=pnpm
 alias cd=z
