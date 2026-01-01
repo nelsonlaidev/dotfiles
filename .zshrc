@@ -79,8 +79,8 @@ export PATH="$ANDROID_HOME/platform-tools:$PATH"
 # LM Studio CLI
 export PATH="$PATH:$HOME/.lmstudio/bin"
 
-# PostgreSQL 16
-export PATH="$HOMEBREW_PREFIX/opt/postgresql@16/bin:$PATH"
+# PostgreSQL 17
+export PATH="$HOMEBREW_PREFIX/opt/postgresql@17/bin:$PATH"
 
 # Alias
 alias pn=pnpm
@@ -91,3 +91,6 @@ alias ls="eza --color=always --icons=always --long --git --no-filesize --no-time
 # History
 # Do not record commands that start with a space
 setopt HIST_IGNORE_SPACE
+
+# Spicetify
+export PATH=$PATH:/Users/nelson/.spicetify
