@@ -83,10 +83,8 @@ export PATH="$PATH:$HOME/.lmstudio/bin"
 export PATH="$HOMEBREW_PREFIX/opt/postgresql@17/bin:$PATH"
 
 # Alias
-alias pn=pnpm
-alias cd=z
 alias cz=czg
-alias ls="eza --color=always --icons=always --long --git --no-filesize --no-time --no-user --no-permissions"
+alias ls="eza -la --git --no-permissions --no-user --no-time --no-filesize"
 
 # History
 # Do not record commands that start with a space
@@ -94,3 +92,6 @@ setopt HIST_IGNORE_SPACE
 
 # Spicetify
 export PATH=$PATH:/Users/nelson/.spicetify
+
+# Antigravity
+export PATH="/Users/nelson/.antigravity/antigravity/bin:$PATH"
