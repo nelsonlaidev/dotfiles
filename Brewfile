@@ -1,6 +1,7 @@
 tap "gromgit/fuse"
 brew "act"
 brew "biome"
+brew "cloc"
 brew "cmake"
 brew "cocoapods"
 brew "eza"
