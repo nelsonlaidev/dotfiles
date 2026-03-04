@@ -51,7 +51,7 @@ export PATH="$HOMEBREW_PREFIX/opt/postgresql@17/bin:$PATH"
 setopt HIST_IGNORE_SPACE
 
 # Spicetify
-export PATH=$PATH:/Users/nelson/.spicetify
+export PATH="$PATH:$HOME/.spicetify"
 
 # Alias
 alias cz="czg"
@@ -59,3 +59,6 @@ alias cd="z"
 alias ls="eza -la --git --no-permissions --no-user --no-time --no-filesize"
 alias tree="eza --tree"
 alias bdump="brew bundle dump --brews --casks --taps --cargo --force"
+
+# opencode
+export PATH="$HOME/.opencode/bin:$PATH"
