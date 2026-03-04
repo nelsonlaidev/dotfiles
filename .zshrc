@@ -29,6 +29,9 @@ export COREPACK_ENABLE_AUTO_PIN=0
 # UV
 . "$HOME/.local/bin/env"
 
+# fnm
+eval "$(fnm env --use-on-cd --shell zsh)"
+
 # pnpm
 export PNPM_HOME="$HOME/Library/pnpm"
 case ":$PATH:" in
