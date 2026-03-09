@@ -50,9 +50,6 @@ export PATH="$HOMEBREW_PREFIX/opt/postgresql@17/bin:$PATH"
 # Do not record commands that start with a space
 setopt HIST_IGNORE_SPACE
 
-# Spicetify
-export PATH="$PATH:$HOME/.spicetify"
-
 # Alias
 alias cz="czg"
 alias cd="z"
@@ -62,3 +59,6 @@ alias bdump="brew bundle dump --brews --casks --taps --cargo --force"
 
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
+
+# Antigravity
+export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
