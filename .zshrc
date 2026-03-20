@@ -21,7 +21,9 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Zoxide
-eval "$(zoxide init zsh)"
+if [[ "$CLAUDECODE" != "1" ]]; then
+	eval "$(zoxide init --cmd cd zsh)"
+fi
 
 # Corepack
 export COREPACK_ENABLE_AUTO_PIN=0
