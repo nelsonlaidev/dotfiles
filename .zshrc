@@ -23,6 +23,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # Zoxide
 if [[ "$CLAUDECODE" != "1" ]]; then
 	eval "$(zoxide init zsh)"
+	alias cd="z"
 fi
 
 # Corepack
@@ -54,7 +55,6 @@ setopt HIST_IGNORE_SPACE
 
 # Alias
 alias cz="czg"
-alias cd="z"
 alias ls="eza -la --git --no-permissions --no-user --no-time --no-filesize"
 alias tree="eza --tree"
 alias bdump="brew bundle dump --brews --casks --taps --cargo --force"
