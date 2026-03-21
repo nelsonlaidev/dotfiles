@@ -22,7 +22,7 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Zoxide
 if [[ "$CLAUDECODE" != "1" ]]; then
-	eval "$(zoxide init --cmd cd zsh)"
+	eval "$(zoxide init zsh)"
 fi
 
 # Corepack
