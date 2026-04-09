@@ -26,9 +26,6 @@ if [[ "$CLAUDECODE" != "1" ]]; then
 	alias cd="z"
 fi
 
-# Corepack
-export COREPACK_ENABLE_AUTO_PIN=0
-
 # UV
 . "$HOME/.local/bin/env"
 
