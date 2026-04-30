@@ -2,26 +2,25 @@ font-size = 16
 font-family = "GeistMono Nerd Font Mono"
 font-family = "PingFang TC"
 font-thicken = true
-font-style = Regular
 
-mouse-hide-while-typing = true
-window-decoration = true
+theme = vesper
 background-opacity = 0.7
 background-blur-radius = 20
-theme = vesper
-adjust-cell-height = 35%
-adjust-cursor-thickness = 12
-
-keybind = ctrl+d=new_split:right
-
+window-decoration = true
+macos-titlebar-style = transparent
 window-padding-x = 12
 window-padding-y = 12
 window-padding-balance = true
 
+adjust-cell-height = 35%
+adjust-cursor-thickness = 12
+mouse-hide-while-typing = true
+
 selection-background = 3c1d1d
 selection-foreground = eeeeee
 
-macos-titlebar-style = transparent
-
 shell-integration-features = sudo
+term = xterm-256color
+
+keybind = ctrl+d=new_split:right
 keybind = shift+enter=text:\n
