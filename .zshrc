@@ -59,10 +59,5 @@ alias bdump="brew bundle dump --brews --casks --taps --cargo --force"
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
 
-# Antigravity
-export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
-
 # Yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-[ -f ~/.zsh_secrets ] && source ~/.zsh_secrets
