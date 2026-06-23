@@ -1,0 +1,5 @@
+[tools]
+node = "26"
+"npm:czg" = "latest"
+"npm:npm-check-updates" = "22.2.7"
+pnpm = "11.8.0"
