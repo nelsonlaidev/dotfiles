@@ -13,26 +13,24 @@ Personal configuration files for my development environment. The configurations 
 ## Contents
 
 - `.config/`
-  - `ghostty/` - Terminal emulator settings
-  - `karabiner/` - Keyboard customization (macOS)
-- `.ssh/` - SSH configuration
-- `.gitconfig` - Git configuration with GPG signing
-- `.zshrc` - Shell configuration with oh-my-zsh
-- `.zshenv` - Environment variables
-- `Brewfile` - Homebrew package list
+  - `1Password/` - SSH agent config (Developer vault)
+  - `ghostty/` - GPU-accelerated terminal emulator (GeistMono Nerd Font, vesper theme, 70% opacity)
+  - `karabiner/` - Keyboard customization for Cantonese input (UIO/JKL swap)
+  - `mise/` - Runtime version manager (Node 26, pnpm 11.8)
+  - `opencode/` - AI coding agent configuration
+- `.ssh/` - SSH client config (1Password agent, OrbStack)
+- `.gitconfig` - Git config with SSH commit signing via 1Password
+- `.zshrc` - Zsh config (Oh My Zsh, zoxide, eza, mise, 1Password agent)
+- `.zshenv` - Environment variables (Rust, Homebrew, Bun, fnm)
+- `.stowrc` - Stow target (`~/`)
+- `.stow-local-ignore` - Files excluded from stow symlinking
+- `Brewfile` - Homebrew bundle (formulae and casks)
 
 ## Installation
 
-1. Install GNU Stow:
-
 ```bash
 brew install stow
-```
-
-2. Clone and apply:
-
-```bash
-git clone https://github.com/nelsonlaidev/dotfiles.git ~/dotfiles
+git clone git@github.com:nelsonlaidev/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow .
 ```
