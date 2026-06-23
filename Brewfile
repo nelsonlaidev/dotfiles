@@ -1,5 +1,3 @@
-tap "gromgit/fuse"
-tap "nelsonlaidev/tap"
 # Cross-platform make
 brew "cmake"
 # Modern, maintained replacement for ls
@@ -12,8 +10,12 @@ brew "gh"
 brew "git"
 # Highly customizable changelog generator
 brew "git-cliff"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
 # Fast and powerful Git hooks manager for any type of projects
 brew "lefthook"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Autoformat shell script source code
