@@ -24,3 +24,5 @@ term = xterm-256color
 
 keybind = ctrl+d=new_split:right
 keybind = shift+enter=text:\n
+
+macos-option-as-alt = true
