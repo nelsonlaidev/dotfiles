@@ -34,3 +34,5 @@ brew "zsh-syntax-highlighting"
 cask "ghostty"
 # AI coding agent desktop client
 cask "opencode-desktop"
+# System monitor for the menu bar
+cask "stats"
