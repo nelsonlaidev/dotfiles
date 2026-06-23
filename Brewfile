@@ -2,8 +2,8 @@
 brew "cmake"
 # Modern, maintained replacement for ls
 brew "eza"
-# Fast and simple Node.js version manager
-brew "fnm"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
