@@ -1,52 +1,34 @@
 tap "gromgit/fuse"
 tap "nelsonlaidev/tap"
-brew "act"
-brew "apktool"
-brew "biome"
-brew "bundletool"
-brew "cloc"
-brew "cloudflared"
+# Cross-platform make
 brew "cmake"
-brew "cocoapods"
+# Modern, maintained replacement for ls
 brew "eza"
-brew "fastfetch"
-brew "ffmpeg"
+# Fast and simple Node.js version manager
 brew "fnm"
+# GitHub command-line tool
 brew "gh"
+# Distributed revision control system
 brew "git"
+# Highly customizable changelog generator
 brew "git-cliff"
-brew "jadx"
+# Fast and powerful Git hooks manager for any type of projects
 brew "lefthook"
-brew "llmfit"
-brew "micro"
-brew "pipx"
-brew "postgresql@17"
-brew "python@3.10"
-brew "python-tk@3.10", link: true
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
-brew "scc"
-brew "scrcpy"
+# Autoformat shell script source code
 brew "shfmt"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
-brew "watchman"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-brew "gromgit/fuse/ntfs-3g-mac"
-brew "nelsonlaidev/tap/scoutly"
-cask "android-platform-tools"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-cask "macfuse"
-cask "mounty"
-cask "vscodium"
-cargo "cargo-audit"
-cargo "cargo-binstall"
-cargo "cargo-dist"
-cargo "cargo-insta"
-cargo "cargo-llvm-cov"
-cargo "cargo-shear"
-cargo "cargo-tarpaulin"
-cargo "just"
-cargo "typos-cli"
-cargo "watchexec-cli"
+# AI coding agent desktop client
+cask "opencode-desktop"
