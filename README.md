@@ -13,7 +13,7 @@ Personal configuration files for my development environment. The configurations 
 ## Contents
 
 - `.config/`
-  - `ghossty/` - Terminal emulator settings
+  - `ghostty/` - Terminal emulator settings
   - `karabiner/` - Keyboard customization (macOS)
 - `.ssh/` - SSH configuration
 - `.gitconfig` - Git configuration with GPG signing
