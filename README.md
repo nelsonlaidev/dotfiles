@@ -17,7 +17,6 @@ Personal configuration files for my development environment. The configurations 
   - `ghostty/` - GPU-accelerated terminal emulator (GeistMono Nerd Font, vesper theme, 70% opacity)
   - `karabiner/` - Keyboard customization for Cantonese input (UIO/JKL swap)
   - `mise/` - Runtime version manager (Node 26, pnpm 11.8)
-  - `opencode/` - AI coding agent configuration
 - `.ssh/` - SSH client config (1Password agent, OrbStack)
 - `.gitconfig` - Git config with SSH commit signing via 1Password
 - `.zshrc` - Zsh config (Oh My Zsh, zoxide, eza, mise, 1Password agent)
