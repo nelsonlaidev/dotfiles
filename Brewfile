@@ -12,6 +12,8 @@ brew "git"
 brew "git-cliff"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Handy way to save and run project-specific commands
+brew "just"
 # Fast and powerful Git hooks manager for any type of projects
 brew "lefthook"
 # Polyglot runtime manager (asdf rust clone)
@@ -36,3 +38,4 @@ cask "ghostty"
 cask "opencode-desktop"
 # System monitor for the menu bar
 cask "stats"
+cargo "cargo-binstall"
