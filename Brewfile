@@ -1,5 +1,8 @@
+tap "axodotdev/tap"
 # Cross-platform make
 brew "cmake"
+# More intuitive version of du in rust
+brew "dust"
 # Modern, maintained replacement for ls
 brew "eza"
 # Like neofetch, but much faster because written mostly in C
@@ -10,6 +13,8 @@ brew "gh"
 brew "git"
 # Highly customizable changelog generator
 brew "git-cliff"
+# Syntax-highlighting pager for git and diff output
+brew "git-delta"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Handy way to save and run project-specific commands
@@ -32,6 +37,8 @@ brew "zoxide"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Shippable application packaging for Rust
+brew "axodotdev/tap/cargo-dist", trusted: true
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # AI coding agent desktop client
@@ -39,3 +46,11 @@ cask "opencode-desktop"
 # System monitor for the menu bar
 cask "stats"
 cargo "cargo-binstall"
+cargo "cargo-edit"
+cargo "cargo-insta"
+cargo "cargo-shear"
+cargo "dprint"
+cargo "rustlings"
+cargo "taplo-cli"
+cargo "typos-cli"
+cargo "watchexec-cli"
