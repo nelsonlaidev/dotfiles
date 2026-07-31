@@ -47,3 +47,7 @@ alias bdump="brew bundle dump --brews --casks --taps --cargo --force"
 
 # opencode
 export PATH="$HOME/.opencode/bin:$PATH"
+
+# go
+export PATH="$PATH:$(go env GOPATH)/bin"
+
