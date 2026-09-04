@@ -15,7 +15,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # brew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# bun
+# bun completions
 [ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
@@ -50,4 +50,3 @@ export PATH="$HOME/.opencode/bin:$PATH"
 
 # go
 export PATH="$PATH:$(go env GOPATH)/bin"
-
