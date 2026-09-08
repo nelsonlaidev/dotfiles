@@ -50,3 +50,8 @@ export PATH="$HOME/.opencode/bin:$PATH"
 
 # go
 export PATH="$PATH:$(go env GOPATH)/bin"
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
