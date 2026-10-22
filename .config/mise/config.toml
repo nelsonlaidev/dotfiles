@@ -1,5 +1,5 @@
 [tools]
-node = "26"
+node = "26.12.1"
 "npm:czg" = "latest"
 "npm:npm-check-updates" = "22.2.7"
 
