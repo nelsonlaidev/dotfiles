@@ -16,11 +16,13 @@ Personal configuration files for my development environment. The configurations 
   - `1Password/` - SSH agent config (Developer vault)
   - `ghostty/` - GPU-accelerated terminal emulator (GeistMono Nerd Font, vesper theme, 70% opacity)
   - `karabiner/` - Keyboard customization for Cantonese input (UIO/JKL swap)
-  - `mise/` - Runtime version manager (Node 26, pnpm 11.8)
+  - `mise/` - Runtime version manager (Node 26.12.1, czg, npm-check-updates, corepack hook)
+  - `opencode/` - OpenCode agent instructions (`AGENTS.md`)
+- `.dsh/` - DeepSeek Harness agent instructions (`AGENTS.md`)
 - `.ssh/` - SSH client config (1Password agent, OrbStack)
 - `.gitconfig` - Git config with SSH commit signing via 1Password
-- `.zshrc` - Zsh config (Oh My Zsh, zoxide, eza, mise, 1Password agent)
-- `.zshenv` - Environment variables (Rust, Homebrew, Bun, fnm)
+- `.zshrc` - Zsh config (Oh My Zsh, autosuggestions, syntax highlighting, zoxide, uv, mise, 1Password agent, aliases, OpenCode, Go, pyenv, Flutter, Android SDK)
+- `.zshenv` - Environment variables (Rust; Homebrew, Bun, pnpm, fnm and `~/.local/bin` only when running under the Antigravity agent)
 - `.stowrc` - Stow target (`~/`)
 - `.stow-local-ignore` - Files excluded from stow symlinking
 - `Brewfile` - Homebrew bundle (formulae and casks)
