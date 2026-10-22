@@ -1,8 +1,10 @@
 tap "axodotdev/tap"
 tap "goreleaser/tap"
-tap "nelsonlaidev/tap"
+tap "nelsonlaidev/tap", trusted: { casks: ["scoutly"] }
 # Cross-platform make
 brew "cmake"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
 # More intuitive version of du in rust
 brew "dust"
 # Command-line tool to interact with exercism.io
@@ -29,10 +31,16 @@ brew "golangci-lint"
 brew "just"
 # Fast and powerful Git hooks manager for any type of projects
 brew "lefthook"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Next-gen compiler infrastructure
+brew "llvm"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 # Netwide Assembler (NASM) is an 80x86 assembler
 brew "nasm"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Python version management
 brew "pyenv"
 # Search tool like grep and The Silver Searcher
@@ -43,8 +51,6 @@ brew "shfmt"
 brew "stow"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# General-purpose data compression with high compression ratio
-brew "xz"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -57,19 +63,21 @@ brew "axodotdev/tap/cargo-dist", trusted: true
 cask "ghostty"
 # Release engineering, simplified
 cask "goreleaser/tap/goreleaser", trusted: true
+# Customise mouse behavior
+cask "linearmouse"
 # AI coding agent desktop client
 cask "opencode-desktop"
-# Fast website auditing tool
-cask "nelsonlaidev/tap/scoutly", trusted: true
 # System monitor for the menu bar
 cask "stats"
 cargo "cargo-binstall"
 cargo "cargo-edit"
 cargo "cargo-insta"
+cargo "cargo-llvm-cov"
 cargo "cargo-shear"
 cargo "cargo-tarpaulin"
 cargo "cargo-watch"
 cargo "dprint"
+cargo "rustfinity"
 cargo "rustlings"
 cargo "taplo-cli"
 cargo "typos-cli"
