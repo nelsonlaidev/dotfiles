@@ -69,8 +69,6 @@ cask "goreleaser/tap/goreleaser", trusted: true
 cask "linearmouse"
 # AI coding agent desktop client
 cask "opencode-desktop"
-# System monitor for the menu bar
-cask "stats"
 cargo "cargo-binstall"
 cargo "cargo-edit"
 cargo "cargo-insta"
